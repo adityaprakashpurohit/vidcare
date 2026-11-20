@@ -1,0 +1,81 @@
+{
+  "name": "liver",
+  "columns": [
+    "Age",
+    "Total_Bilirubin",
+    "Direct_Bilirubin",
+    "Alkaline_Phosphotase",
+    "Alamine_Aminotransferase",
+    "Aspartate_Aminotransferase",
+    "Total_Protiens",
+    "Albumin",
+    "Albumin_and_Globulin_Ratio",
+    "Gender_Male"
+  ],
+  "schema": [
+    {
+      "name": "Age",
+      "type": "number",
+      "default": 45.0
+    },
+    {
+      "name": "Gender",
+      "type": "select",
+      "options": [
+        "Female",
+        "Male"
+      ],
+      "default": "Male"
+    },
+    {
+      "name": "Total_Bilirubin",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "Direct_Bilirubin",
+      "type": "number",
+      "default": 0.3
+    },
+    {
+      "name": "Alkaline_Phosphotase",
+      "type": "number",
+      "default": 208.0
+    },
+    {
+      "name": "Alamine_Aminotransferase",
+      "type": "number",
+      "default": 35.0
+    },
+    {
+      "name": "Aspartate_Aminotransferase",
+      "type": "number",
+      "default": 42.0
+    },
+    {
+      "name": "Total_Protiens",
+      "type": "number",
+      "default": 6.6
+    },
+    {
+      "name": "Albumin",
+      "type": "number",
+      "default": 3.1
+    },
+    {
+      "name": "Albumin_and_Globulin_Ratio",
+      "type": "number",
+      "default": 0.93
+    }
+  ],
+  "classes": [
+    "No liver disease",
+    "Liver disease"
+  ],
+  "ml_model": "Random Forest",
+  "dl_model": "Neural network (MLP)",
+  "ml_acc": 0.7008547008547008,
+  "dl_acc": 0.7264957264957265,
+  "best": "dl",
+  "n_train": 396
+}

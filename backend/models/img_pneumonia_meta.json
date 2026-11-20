@@ -1,0 +1,7 @@
+{
+  "ml_model": "HOG + SVM",
+  "dl_model": "MobileNetV2",
+  "ml_acc": 0.7243589743589743,
+  "dl_acc": 0.7692307829856873,
+  "n_train": 4433
+}

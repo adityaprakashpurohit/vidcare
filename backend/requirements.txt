@@ -1,0 +1,13 @@
+# VidCare AI Backend Dependencies
+Flask>=2.3.0
+Flask-Cors>=4.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+scikit-learn
+pandas
+numpy
+tensorflow>=2.10.0
+Pillow
+joblib
+xgboost
+scikit-image

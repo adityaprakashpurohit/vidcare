@@ -1,0 +1,197 @@
+{
+  "name": "breast",
+  "columns": [
+    "mean radius",
+    "mean texture",
+    "mean perimeter",
+    "mean area",
+    "mean smoothness",
+    "mean compactness",
+    "mean concavity",
+    "mean concave points",
+    "mean symmetry",
+    "mean fractal dimension",
+    "radius error",
+    "texture error",
+    "perimeter error",
+    "area error",
+    "smoothness error",
+    "compactness error",
+    "concavity error",
+    "concave points error",
+    "symmetry error",
+    "fractal dimension error",
+    "worst radius",
+    "worst texture",
+    "worst perimeter",
+    "worst area",
+    "worst smoothness",
+    "worst compactness",
+    "worst concavity",
+    "worst concave points",
+    "worst symmetry",
+    "worst fractal dimension"
+  ],
+  "schema": [
+    {
+      "name": "mean radius",
+      "type": "number",
+      "default": 13.37
+    },
+    {
+      "name": "mean texture",
+      "type": "number",
+      "default": 18.84
+    },
+    {
+      "name": "mean perimeter",
+      "type": "number",
+      "default": 86.24
+    },
+    {
+      "name": "mean area",
+      "type": "number",
+      "default": 551.1
+    },
+    {
+      "name": "mean smoothness",
+      "type": "number",
+      "default": 0.09587
+    },
+    {
+      "name": "mean compactness",
+      "type": "number",
+      "default": 0.09263
+    },
+    {
+      "name": "mean concavity",
+      "type": "number",
+      "default": 0.06154
+    },
+    {
+      "name": "mean concave points",
+      "type": "number",
+      "default": 0.0335
+    },
+    {
+      "name": "mean symmetry",
+      "type": "number",
+      "default": 0.1792
+    },
+    {
+      "name": "mean fractal dimension",
+      "type": "number",
+      "default": 0.06154
+    },
+    {
+      "name": "radius error",
+      "type": "number",
+      "default": 0.3242
+    },
+    {
+      "name": "texture error",
+      "type": "number",
+      "default": 1.108
+    },
+    {
+      "name": "perimeter error",
+      "type": "number",
+      "default": 2.287
+    },
+    {
+      "name": "area error",
+      "type": "number",
+      "default": 24.53
+    },
+    {
+      "name": "smoothness error",
+      "type": "number",
+      "default": 0.00638
+    },
+    {
+      "name": "compactness error",
+      "type": "number",
+      "default": 0.02045
+    },
+    {
+      "name": "concavity error",
+      "type": "number",
+      "default": 0.02589
+    },
+    {
+      "name": "concave points error",
+      "type": "number",
+      "default": 0.01093
+    },
+    {
+      "name": "symmetry error",
+      "type": "number",
+      "default": 0.01873
+    },
+    {
+      "name": "fractal dimension error",
+      "type": "number",
+      "default": 0.003187
+    },
+    {
+      "name": "worst radius",
+      "type": "number",
+      "default": 14.97
+    },
+    {
+      "name": "worst texture",
+      "type": "number",
+      "default": 25.41
+    },
+    {
+      "name": "worst perimeter",
+      "type": "number",
+      "default": 97.66
+    },
+    {
+      "name": "worst area",
+      "type": "number",
+      "default": 686.5
+    },
+    {
+      "name": "worst smoothness",
+      "type": "number",
+      "default": 0.1313
+    },
+    {
+      "name": "worst compactness",
+      "type": "number",
+      "default": 0.2119
+    },
+    {
+      "name": "worst concavity",
+      "type": "number",
+      "default": 0.2267
+    },
+    {
+      "name": "worst concave points",
+      "type": "number",
+      "default": 0.09993
+    },
+    {
+      "name": "worst symmetry",
+      "type": "number",
+      "default": 0.2822
+    },
+    {
+      "name": "worst fractal dimension",
+      "type": "number",
+      "default": 0.08004
+    }
+  ],
+  "classes": [
+    "Malignant",
+    "Benign"
+  ],
+  "ml_model": "Random Forest",
+  "dl_model": "Neural network (MLP)",
+  "ml_acc": 0.956140350877193,
+  "dl_acc": 0.9473684210526315,
+  "best": "ml",
+  "n_train": 386
+}

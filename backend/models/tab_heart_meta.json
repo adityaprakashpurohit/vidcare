@@ -1,0 +1,111 @@
+{
+  "name": "heart",
+  "columns": [
+    "Age",
+    "RestingBP",
+    "Cholesterol",
+    "FastingBS",
+    "MaxHR",
+    "Oldpeak",
+    "Sex_M",
+    "ChestPainType_ATA",
+    "ChestPainType_NAP",
+    "ChestPainType_TA",
+    "RestingECG_Normal",
+    "RestingECG_ST",
+    "ExerciseAngina_Y",
+    "ST_Slope_Flat",
+    "ST_Slope_Up"
+  ],
+  "schema": [
+    {
+      "name": "Age",
+      "type": "number",
+      "default": 54.0
+    },
+    {
+      "name": "Sex",
+      "type": "select",
+      "options": [
+        "F",
+        "M"
+      ],
+      "default": "M"
+    },
+    {
+      "name": "ChestPainType",
+      "type": "select",
+      "options": [
+        "ASY",
+        "ATA",
+        "NAP",
+        "TA"
+      ],
+      "default": "ASY"
+    },
+    {
+      "name": "RestingBP",
+      "type": "number",
+      "default": 130.0
+    },
+    {
+      "name": "Cholesterol",
+      "type": "number",
+      "default": 223.0
+    },
+    {
+      "name": "FastingBS",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "RestingECG",
+      "type": "select",
+      "options": [
+        "LVH",
+        "Normal",
+        "ST"
+      ],
+      "default": "Normal"
+    },
+    {
+      "name": "MaxHR",
+      "type": "number",
+      "default": 138.0
+    },
+    {
+      "name": "ExerciseAngina",
+      "type": "select",
+      "options": [
+        "N",
+        "Y"
+      ],
+      "default": "N"
+    },
+    {
+      "name": "Oldpeak",
+      "type": "number",
+      "default": 0.6
+    },
+    {
+      "name": "ST_Slope",
+      "type": "select",
+      "options": [
+        "Down",
+        "Flat",
+        "Up"
+      ],
+      "default": "Flat"
+    }
+  ],
+  "classes": [
+    "No heart disease",
+    "Heart disease"
+  ],
+  "ml_model": "Random Forest",
+  "dl_model": "Neural network (MLP)",
+  "ml_acc": 0.8858695652173914,
+  "dl_acc": 0.8858695652173914,
+  "best": "ml",
+  "n_train": 623
+}

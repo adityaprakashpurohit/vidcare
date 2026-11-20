@@ -1,0 +1,848 @@
+{
+  "name": "disease",
+  "columns": [
+    "itching",
+    "skin_rash",
+    "nodal_skin_eruptions",
+    "continuous_sneezing",
+    "shivering",
+    "chills",
+    "joint_pain",
+    "stomach_pain",
+    "acidity",
+    "ulcers_on_tongue",
+    "muscle_wasting",
+    "vomiting",
+    "burning_micturition",
+    "spotting_ urination",
+    "fatigue",
+    "weight_gain",
+    "anxiety",
+    "cold_hands_and_feets",
+    "mood_swings",
+    "weight_loss",
+    "restlessness",
+    "lethargy",
+    "patches_in_throat",
+    "irregular_sugar_level",
+    "cough",
+    "high_fever",
+    "sunken_eyes",
+    "breathlessness",
+    "sweating",
+    "dehydration",
+    "indigestion",
+    "headache",
+    "yellowish_skin",
+    "dark_urine",
+    "nausea",
+    "loss_of_appetite",
+    "pain_behind_the_eyes",
+    "back_pain",
+    "constipation",
+    "abdominal_pain",
+    "diarrhoea",
+    "mild_fever",
+    "yellow_urine",
+    "yellowing_of_eyes",
+    "acute_liver_failure",
+    "fluid_overload",
+    "swelling_of_stomach",
+    "swelled_lymph_nodes",
+    "malaise",
+    "blurred_and_distorted_vision",
+    "phlegm",
+    "throat_irritation",
+    "redness_of_eyes",
+    "sinus_pressure",
+    "runny_nose",
+    "congestion",
+    "chest_pain",
+    "weakness_in_limbs",
+    "fast_heart_rate",
+    "pain_during_bowel_movements",
+    "pain_in_anal_region",
+    "bloody_stool",
+    "irritation_in_anus",
+    "neck_pain",
+    "dizziness",
+    "cramps",
+    "bruising",
+    "obesity",
+    "swollen_legs",
+    "swollen_blood_vessels",
+    "puffy_face_and_eyes",
+    "enlarged_thyroid",
+    "brittle_nails",
+    "swollen_extremeties",
+    "excessive_hunger",
+    "extra_marital_contacts",
+    "drying_and_tingling_lips",
+    "slurred_speech",
+    "knee_pain",
+    "hip_joint_pain",
+    "muscle_weakness",
+    "stiff_neck",
+    "swelling_joints",
+    "movement_stiffness",
+    "spinning_movements",
+    "loss_of_balance",
+    "unsteadiness",
+    "weakness_of_one_body_side",
+    "loss_of_smell",
+    "bladder_discomfort",
+    "foul_smell_of urine",
+    "continuous_feel_of_urine",
+    "passage_of_gases",
+    "internal_itching",
+    "toxic_look_(typhos)",
+    "depression",
+    "irritability",
+    "muscle_pain",
+    "altered_sensorium",
+    "red_spots_over_body",
+    "belly_pain",
+    "abnormal_menstruation",
+    "dischromic _patches",
+    "watering_from_eyes",
+    "increased_appetite",
+    "polyuria",
+    "family_history",
+    "mucoid_sputum",
+    "rusty_sputum",
+    "lack_of_concentration",
+    "visual_disturbances",
+    "receiving_blood_transfusion",
+    "receiving_unsterile_injections",
+    "coma",
+    "stomach_bleeding",
+    "distention_of_abdomen",
+    "history_of_alcohol_consumption",
+    "fluid_overload.1",
+    "blood_in_sputum",
+    "prominent_veins_on_calf",
+    "palpitations",
+    "painful_walking",
+    "pus_filled_pimples",
+    "blackheads",
+    "scurring",
+    "skin_peeling",
+    "silver_like_dusting",
+    "small_dents_in_nails",
+    "inflammatory_nails",
+    "blister",
+    "red_sore_around_nose",
+    "yellow_crust_ooze"
+  ],
+  "schema": [
+    {
+      "name": "itching",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "skin_rash",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "nodal_skin_eruptions",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "continuous_sneezing",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "shivering",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "chills",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "joint_pain",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "stomach_pain",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "acidity",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "ulcers_on_tongue",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "muscle_wasting",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "vomiting",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "burning_micturition",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "spotting_ urination",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "fatigue",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "weight_gain",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "anxiety",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "cold_hands_and_feets",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "mood_swings",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "weight_loss",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "restlessness",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "lethargy",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "patches_in_throat",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "irregular_sugar_level",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "cough",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "high_fever",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "sunken_eyes",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "breathlessness",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "sweating",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "dehydration",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "indigestion",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "headache",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "yellowish_skin",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "dark_urine",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "nausea",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "loss_of_appetite",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "pain_behind_the_eyes",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "back_pain",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "constipation",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "abdominal_pain",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "diarrhoea",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "mild_fever",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "yellow_urine",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "yellowing_of_eyes",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "acute_liver_failure",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "fluid_overload",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "swelling_of_stomach",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "swelled_lymph_nodes",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "malaise",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "blurred_and_distorted_vision",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "phlegm",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "throat_irritation",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "redness_of_eyes",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "sinus_pressure",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "runny_nose",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "congestion",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "chest_pain",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "weakness_in_limbs",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "fast_heart_rate",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "pain_during_bowel_movements",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "pain_in_anal_region",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "bloody_stool",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "irritation_in_anus",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "neck_pain",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "dizziness",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "cramps",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "bruising",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "obesity",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "swollen_legs",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "swollen_blood_vessels",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "puffy_face_and_eyes",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "enlarged_thyroid",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "brittle_nails",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "swollen_extremeties",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "excessive_hunger",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "extra_marital_contacts",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "drying_and_tingling_lips",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "slurred_speech",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "knee_pain",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "hip_joint_pain",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "muscle_weakness",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "stiff_neck",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "swelling_joints",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "movement_stiffness",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "spinning_movements",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "loss_of_balance",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "unsteadiness",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "weakness_of_one_body_side",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "loss_of_smell",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "bladder_discomfort",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "foul_smell_of urine",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "continuous_feel_of_urine",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "passage_of_gases",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "internal_itching",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "toxic_look_(typhos)",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "depression",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "irritability",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "muscle_pain",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "altered_sensorium",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "red_spots_over_body",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "belly_pain",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "abnormal_menstruation",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "dischromic _patches",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "watering_from_eyes",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "increased_appetite",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "polyuria",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "family_history",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "mucoid_sputum",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "rusty_sputum",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "lack_of_concentration",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "visual_disturbances",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "receiving_blood_transfusion",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "receiving_unsterile_injections",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "coma",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "stomach_bleeding",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "distention_of_abdomen",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "history_of_alcohol_consumption",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "fluid_overload.1",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "blood_in_sputum",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "prominent_veins_on_calf",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "palpitations",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "painful_walking",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "pus_filled_pimples",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "blackheads",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "scurring",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "skin_peeling",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "silver_like_dusting",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "small_dents_in_nails",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "inflammatory_nails",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "blister",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "red_sore_around_nose",
+      "type": "binary",
+      "default": 0
+    },
+    {
+      "name": "yellow_crust_ooze",
+      "type": "binary",
+      "default": 0
+    }
+  ],
+  "classes": [
+    "(vertigo) Paroymsal  Positional Vertigo",
+    "AIDS",
+    "Acne",
+    "Alcoholic hepatitis",
+    "Allergy",
+    "Arthritis",
+    "Bronchial Asthma",
+    "Cervical spondylosis",
+    "Chicken pox",
+    "Chronic cholestasis",
+    "Common Cold",
+    "Dengue",
+    "Diabetes ",
+    "Dimorphic hemmorhoids(piles)",
+    "Drug Reaction",
+    "Fungal infection",
+    "GERD",
+    "Gastroenteritis",
+    "Heart attack",
+    "Hepatitis B",
+    "Hepatitis C",
+    "Hepatitis D",
+    "Hepatitis E",
+    "Hypertension ",
+    "Hyperthyroidism",
+    "Hypoglycemia",
+    "Hypothyroidism",
+    "Impetigo",
+    "Jaundice",
+    "Malaria",
+    "Migraine",
+    "Osteoarthristis",
+    "Paralysis (brain hemorrhage)",
+    "Peptic ulcer diseae",
+    "Pneumonia",
+    "Psoriasis",
+    "Tuberculosis",
+    "Typhoid",
+    "Urinary tract infection",
+    "Varicose veins",
+    "hepatitis A"
+  ],
+  "ml_model": "Random Forest",
+  "dl_model": "Neural network (MLP)",
+  "ml_acc": 1.0,
+  "dl_acc": 1.0,
+  "best": "ml",
+  "n_train": 3345
+}

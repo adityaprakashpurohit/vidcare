@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.obj
+*.o
+*.a
+*.lib
+*.pyd
+
+# Environments & Virtual Envs
+.venv/
+backend/venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+dist-ssr/
+*.local
+
+# Environment variables & secrets
+.env
+*.env
+backend/.env
+!backend/.env.example
+!.env.example
+
+# Logs and databases
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Agent files & local caches
+.agents/
+.keras/
+
+# Datasets (large raw medical image datasets, >3.8 GB)
+# Download via backend/download_datasets.py
+backend/datasets/brain/
+backend/datasets/breast/
+backend/datasets/covid/
+backend/datasets/pneumonia/
+backend/datasets/skin/
+backend/datasets/*/
+!backend/datasets/*.csv
